@@ -32,10 +32,10 @@ public class App
     	        DesiredCapabilities capabilities = new DesiredCapabilities();
 
     	        capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "android");
-    	        capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "foo");
-    	        capabilities.setCapability(MobileCapabilityType.APP, "[path to local repo]/AppCenter-Test-Samples/Appium/Android/swiftnotes.apk");
+    	        capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Samsung Galaxy S21 Ultra");
+    	        capabilities.setCapability(MobileCapabilityType.APP, "[path to local repo]/Android-Testing/blob/main/Android/src/main/java/Android/Android/App.java");
     	        capabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 7913);
-    	        capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2");
+    	       // capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2");
 
     	        URL url = new URL("http://localhost:4723/wd/hub");
 
